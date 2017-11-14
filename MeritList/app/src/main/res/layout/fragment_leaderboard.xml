@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/str_leaderboard_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_height"
+            android:background="@color/colorBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/padding_xl"
+            android:paddingRight="@dimen/padding_xl">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_myrank_leaderboard_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/text_my_rank_leaderboard"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_subheading" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_myxp_leaderboard_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/text_my_xp_leaderboard"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_subheading" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/leaderboard_title_height"
+            android:background="@color/colorYellow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding_xl"
+            android:paddingRight="@dimen/padding_xl">
+
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_ranktitle_leaderboard_fragment"
+                android:layout_width="@dimen/dimen_zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/text_rank_title_leaderboard"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_body" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_nametitle_leaderboard_fragment"
+                android:layout_width="@dimen/dimen_zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/text_name_title_leaderboard"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_body" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_mid_leaderboard_fragment"
+                android:layout_width="@dimen/dimen_zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_body" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_citytitle_leaderboard_fragment"
+                android:layout_width="@dimen/dimen_zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/text_city_title_leaderboard"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_body" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/tv_xptitle_leaderboard_fragment"
+                android:layout_width="@dimen/dimen_zero"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/text_xp_title_leaderboard"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_body" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_leaderboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:scrollbars="vertical" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.SwipeRefreshLayout>

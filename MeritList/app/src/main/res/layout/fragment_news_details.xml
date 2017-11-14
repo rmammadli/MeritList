@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/str_news_details_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="androidclient.meritlist.in.meritlist.fragments.NewsDetailsFragment">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_xl">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_title_news_details_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_xl"
+            android:text="@string/text_news_details_title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_subheading" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_body_news_details_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_xl"
+            android:text="@string/text_news_details_body"
+            android:textColor="@color/colorBlackText"
+            android:textSize="@dimen/text_body" />
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v4.widget.SwipeRefreshLayout>

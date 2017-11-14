@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/home_fragment_recommendation_card_width"
+    android:layout_height="@dimen/home_fragment_recommendation_card_height"
+    android:layout_marginRight="@dimen/margin_xl"
+    android:background="@drawable/shape_background_yellow_rounded"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_m">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_subject_recommended_home"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/colorGreyText"
+        android:textSize="@dimen/text_title" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/margin_s"
+        android:background="@color/colorGreyText" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_description_recommended_home"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_s"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_body" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_level_recommended_home"
+        fontPath="fonts/Montserrat-Regular.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_s"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_subheading" />
+
+</android.support.v7.widget.LinearLayoutCompat>

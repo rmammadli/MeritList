@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">MeritList</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_notifications">Notifications</string>
+
+
+    <!--Splash page strings-->
+    <string name="text_title">MeritList</string>
+    <string name="text_subheading">Adaptive learning for college entrance exams</string>
+    <string name="text_copyright">&#169; MeritList Education Pvt Ltd</string>
+
+    <!--Intro page strings-->
+    <string name="title">Title</string>
+    <string name="description">Title</string>
+    <string name="btn_getstarted">GET STARTED</string>
+
+    <!--Login page strings-->
+    <string name="text_btn_signin">LOGIN</string>
+    <string name="text_btn_signup">REGISTER</string>
+    <string name="text_tab_signin">Log In</string>
+    <string name="text_tab_signup">Sign Up</string>
+
+    <!--SignIn page strings-->
+    <string name="text_email">Email</string>
+    <string name="text_email_desc">enter your registered email</string>
+    <string name="text_password">Password</string>
+    <string name="text_password_desc">enter your password</string>
+    <string name="text_login_with">OR\nLogin with:</string>
+
+    <!--SignUp page strings-->
+    <string name="text_email_signup_desc">enter your mail</string>
+    <string name="text_nickname">Nickname</string>
+    <string name="text_nickname_signup_desc">pick your nickname</string>
+    <string name="text_password_signup_desc">choose your secret password</string>
+    <string name="text_password_confirm">Confirm password</string>
+    <string name="text_password_signup_repeat_desc">repeat your password</string>
+    <string name="text_connect_with">OR\nConnect with:</string>
+    <string name="title_activity_home">MeritList</string>
+
+    <!--Home screen strings-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="text_button_logout">Logout</string>
+    <string name="text_tab_home">Home</string>
+    <string name="text_tab_doubts">Doubts</string>
+    <string name="text_tab_analytics">Analytics</string>
+    <string name="text_tab_practice">Practice</string>
+    <string name="text_tab_papers">Papers</string>
+    <string name="text_name">Laxman Soni</string>
+    <string name="text_xp_menu">156 XP</string>
+    <string name="text_xp">XP: 156</string>
+    <string name="text_recommendedpractice_title">Recommended Practice</string>
+    <string name="text_upcomingexams_title">Upcoming Exams</string>
+    <string name="text_newsfeed_title">News Feed</string>
+
+    <!--Profile screen strings-->
+    <string name="text_detail_name_first_name">First name</string>
+    <string name="text_detail_data_first_name">Laxman</string>
+    <string name="text_detail_name_last_name">Last name</string>
+    <string name="text_detail_data_last_name">Soni</string>
+
+    <!--Leaderboard screen strings-->
+    <string name="text_my_rank_leaderboard">Your rank: 8</string>
+    <string name="text_my_xp_leaderboard">XP: 156</string>
+    <string name="text_rank_title_leaderboard">RANK</string>
+    <string name="text_name_title_leaderboard">NAME</string>
+    <string name="text_city_title_leaderboard">CITY</string>
+    <string name="text_xp_title_leaderboard">XP</string>
+
+    <!--Notification screen strings-->
+    <string name="title_activity_notification">Notifications</string>
+
+    <!--Progress screen strings-->
+    <string name="text_my_progress_progress">Progress: 36%</string>
+    <string name="text_my_xp_progress">XP: 156</string>
+    <string name="text_subject_percentage_progress">45%</string>
+
+    <!-- Practice fragment texts -->
+    <string name="text_select_practice">Select a Practice</string>
+    <string name="text_practice_group_name">Practice group name</string>
+    <string name="text_practice_name">Practice name</string>
+    <string name="text_btn_start_practice">START PRACTICE</string>
+
+    <!-- Paper fragment texts -->
+    <string name="text_select_paper">Select a Paper</string>
+
+    <!-- Doubt fragment texts -->
+    <string name="text_previous_doubts_title">Previous Doubts</string>
+    <string name="text_touch_to_type_doubt">touch to type</string>
+
+    <!-- Analytic fragment texts -->
+    <string name="text_rank_predictor_title">Rank Predictor</string>
+    <string name="text_concepts_title">Concepts</string>
+    <string name="text_skills_title">Skills</string>
+    <string name="text_speed_title">Speed</string>
+    <string name="text_accuracy_title">Accuracy</string>
+    <string name="text_test_scores_title">Test Scores</string>
+
+    <!-- News Details fragment texts -->
+    <string name="text_news_details_title">News title</string>
+    <string name="text_news_details_body">News details</string>
+    <string name="text_btn_finish_practice">FINISH PAPER</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
+

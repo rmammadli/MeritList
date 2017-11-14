@@ -1,0 +1,250 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:fillViewport="true"
+    android:paddingBottom="@dimen/padding_xxxxl"
+    android:paddingLeft="@dimen/padding_xl"
+    android:paddingRight="@dimen/padding_xl"
+    android:paddingTop="@dimen/padding_xl"
+    tools:context="androidclient.meritlist.in.meritlist.fragments.AnalyticFragment">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_xl"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_xl"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_m">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/image_button_width_analytic"
+                    android:layout_height="@dimen/image_button_height_analytic"
+                    android:layout_marginBottom="@dimen/margin_s"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_rank_predictor" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorPrimary" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xs"
+                    android:gravity="center"
+                    android:text="@string/text_rank_predictor_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_tab" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_xl"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_m">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/image_button_width_analytic"
+                    android:layout_height="@dimen/image_button_height_analytic"
+                    android:layout_marginBottom="@dimen/margin_s"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_concepts" />
+
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorPrimary" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xs"
+                    android:gravity="center"
+                    android:text="@string/text_rank_predictor_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_tab" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_m">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/image_button_width_analytic"
+                    android:layout_height="@dimen/image_button_height_analytic"
+                    android:layout_marginBottom="@dimen/margin_s"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_skills" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorPrimary" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xs"
+                    android:gravity="center"
+                    android:text="@string/text_rank_predictor_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_tab" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_xxxxl"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_xl"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_m">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/image_button_width_analytic"
+                    android:layout_height="@dimen/image_button_height_analytic"
+                    android:layout_marginBottom="@dimen/margin_s"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_speed" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorPrimary" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xs"
+                    android:gravity="center"
+                    android:text="@string/text_rank_predictor_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_tab" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_xl"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_m">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/image_button_width_analytic"
+                    android:layout_height="@dimen/image_button_height_analytic"
+                    android:layout_marginBottom="@dimen/margin_s"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_accuracy" />
+
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorPrimary" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xs"
+                    android:gravity="center"
+                    android:text="@string/text_rank_predictor_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_tab" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/colorWhite"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_m">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/image_button_width_analytic"
+                    android:layout_height="@dimen/image_button_height_analytic"
+                    android:layout_marginBottom="@dimen/margin_s"
+                    android:orientation="vertical"
+                    android:scaleType="fitCenter"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_test_scores" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/colorPrimary" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_xs"
+                    android:gravity="center"
+                    android:text="@string/text_rank_predictor_title"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_tab" />
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+</ScrollView>

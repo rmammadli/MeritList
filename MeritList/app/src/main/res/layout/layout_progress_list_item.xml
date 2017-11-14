@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:clickable="true"
+        android:background="?attr/selectableItemBackground">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:id="@+id/ll_subject_on_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_subject_name_progress_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/padding_xl"
+            android:text="@string/text_my_progress_progress"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_body" />
+
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/pb_progress_list"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="@dimen/progress_progressbar_indicator_width"
+            android:layout_height="@dimen/progress_progressbar_indicator_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_xl"
+            android:minHeight="@dimen/progress_progressbar_indicator_height"
+            android:progress="33"
+            android:progressDrawable="@drawable/layer_custom_horizontal_progressbar_yellow_rounded"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_subject_percentage_progress_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/progress_percentage_text_margin_right"
+            android:layout_toLeftOf="@+id/pb_progress_list"
+            android:text="@string/text_subject_percentage_progress"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_body"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_status_progress_list"
+            android:layout_width="@dimen/progress_status_indicator_width"
+            android:layout_height="@dimen/progress_status_indicator_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_xl"
+            android:background="@drawable/ic_solved" />
+    </RelativeLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

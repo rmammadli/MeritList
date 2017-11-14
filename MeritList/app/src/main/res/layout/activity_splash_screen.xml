@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.SplashScreenActivity">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="@dimen/logo_width_splash"
+            android:layout_height="@dimen/logo_height_splash"
+            android:layout_marginBottom="@dimen/margin_xxl"
+            android:background="@drawable/logo_shark" />
+
+        <android.support.v7.widget.AppCompatTextView
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_title"
+            android:textColor="@color/colorYellow"
+            android:textSize="@dimen/text_headline_splash" />
+
+        <android.support.v7.widget.AppCompatTextView
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_subheading"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_body" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_center_line_splash"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true" />
+
+        <android.support.v7.widget.AppCompatTextView
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/margin_m"
+            android:layout_marginRight="@dimen/margin_xl"
+            android:padding="@dimen/padding_s"
+            android:text="@string/text_copyright"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_body" />
+    </RelativeLayout>
+</RelativeLayout>

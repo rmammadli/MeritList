@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="?attr/selectableItemBackground"
+        android:paddingLeft="@dimen/padding_xl"
+        android:paddingRight="@dimen/padding_xl">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_list_group_title_paper_list_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/text_practice_group_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_body" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

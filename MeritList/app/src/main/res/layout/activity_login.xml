@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="androidclient.meritlist.in.meritlist.activities.LoginActivity">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/ll_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_xl"
+        android:paddingTop="@dimen/padding_xl">
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_signup"
+                style="@style/RadioButtonStyleCustom"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_big"
+                android:background="@drawable/selector_btn_radio_left"
+                android:checked="true"
+                android:paddingLeft="@dimen/button_side_padding"
+                android:paddingRight="@dimen/button_side_padding"
+                android:text="@string/text_tab_signup"
+                android:textColor="@drawable/selector_radio_text"
+                android:textSize="@dimen/text_button" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/radio_signin"
+                style="@style/RadioButtonStyleCustom"
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_big"
+                android:background="@drawable/selector_btn_radio_right"
+                android:paddingLeft="@dimen/button_side_padding"
+                android:paddingRight="@dimen/button_side_padding"
+                android:text="@string/text_tab_signin"
+                android:textColor="@drawable/selector_radio_text"
+                android:textSize="@dimen/text_button" />
+        </RadioGroup>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_buttons" />
+
+    <include layout="@layout/layout_login_footer" />
+
+</RelativeLayout>

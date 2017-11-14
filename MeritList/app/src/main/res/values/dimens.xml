@@ -1,0 +1,127 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!--Font sizes -->
+    <dimen name="text_headline_splash">56sp</dimen>
+    <dimen name="text_headline">24sp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_subheading">16sp</dimen>
+    <dimen name="text_body">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_button">14sp</dimen>
+    <dimen name="text_tab">10sp</dimen>
+
+    <!--Button sizes-->
+    <dimen name="button_big">42dp</dimen>
+    <dimen name="button_normal">36dp</dimen>
+    <dimen name="button_normal_round_radius">21dp</dimen>
+    <dimen name="button_side_padding">56dp</dimen>
+
+    <!--Edit text sizes-->
+    <dimen name="edittext_big">42dp</dimen>
+    <dimen name="edittext_normal">36dp</dimen>
+
+    <!--Label sizes-->
+    <dimen name="tv_big">72dp</dimen>
+    <dimen name="tv_normal">60dp</dimen>
+
+
+    <!--Margins-->
+    <dimen name="margin_xxxxl">56dp</dimen>
+    <dimen name="margin_xxxl">42dp</dimen>
+    <dimen name="margin_xxl">24dp</dimen>
+    <dimen name="margin_xxls">20dp</dimen>
+    <dimen name="margin_xl">16dp</dimen>
+    <dimen name="margin_l">12dp</dimen>
+    <dimen name="margin_m">8dp</dimen>
+    <dimen name="margin_s">4dp</dimen>
+    <dimen name="margin_xs">2dp</dimen>
+
+    <!--Paddings-->
+    <dimen name="padding_xxxxl">56dp</dimen>
+    <dimen name="padding_xxxl">48dp</dimen>
+    <dimen name="padding_xxl">24dp</dimen>
+    <dimen name="padding_xxls">20dp</dimen>
+    <dimen name="padding_xl">16dp</dimen>
+    <dimen name="padding_l">12dp</dimen>
+    <dimen name="padding_m">8dp</dimen>
+    <dimen name="padding_s">4dp</dimen>
+    <dimen name="padding_xs">2dp</dimen>
+
+
+    <!--Splash page -->
+    <dimen name="logo_width_splash">278dp</dimen>
+    <dimen name="logo_height_splash">144dp</dimen>
+
+    <!--Intro page -->
+    <dimen name="indicatior_dot_width">10dp</dimen>
+    <dimen name="indicatior_dot_height">10dp</dimen>
+    <dimen name="indicatior_dot_gap">12dp</dimen>
+    <dimen name="indicatior_dot_corner_radius">5dp</dimen>
+    <dimen name="indicatior_dot_padding_top">20dp</dimen>
+    <dimen name="logo_width_intro">185dp</dimen>
+    <dimen name="logo_height_intro">96dp</dimen>
+
+    <!--Login page -->
+    <dimen name="social_button_height">42dp</dimen>
+    <dimen name="social_button_width">82dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!--Home screen sizes-->
+    <dimen name="tab_height_home">56dp</dimen>
+    <dimen name="tab_indicator_height_home">4dp</dimen>
+    <dimen name="dimen_zero">0dp</dimen>
+    <dimen name="list_item_height">56dp</dimen>
+    <dimen name="list_item_normal_round_radius">16dp</dimen>
+    <dimen name="margin_home_fragment_bottom">56dp</dimen>
+    <dimen name="home_fragment_recommendation_card_width">96dp</dimen>
+    <dimen name="home_fragment_recommendation_card_height">96dp</dimen>
+
+    <!--Profile screen sizes-->
+    <dimen name="profile_fragment_profile_image_height">96dp</dimen>
+    <dimen name="profile_fragment_profile_image_width">96dp</dimen>
+    <dimen name="dvider_height">1px</dimen>
+    <dimen name="profile_list_header_height">160dp</dimen>
+
+    <!--Leaderboard screen sizes-->
+    <dimen name="leaderboard_title_height">48dp</dimen>
+
+    <!--Help screen sizes-->
+    <dimen name="help_list_icon_height">12dp</dimen>
+    <dimen name="help_list_icon_width">8dp</dimen>
+
+    <!--Help screen sizes-->
+    <dimen name="notification_list_indicator_icon_height">12dp</dimen>
+    <dimen name="notification_list_indicator_icon_width">12dp</dimen>
+    <dimen name="notification_list_indicator_icon_radius">6dp</dimen>
+
+    <!--Progress screen sizes-->
+    <dimen name="progress_progressbar_indicator_height">12dp</dimen>
+    <dimen name="progress_progressbar_indicator_width">96dp</dimen>
+    <dimen name="progress_progressbar_indicator_radius">6dp</dimen>
+    <dimen name="progress_status_indicator_height">18dp</dimen>
+    <dimen name="progress_status_indicator_width">18dp</dimen>
+    <dimen name="progress_percentage_text_margin_right">120dp</dimen>
+
+    <!--Doubt screen sizes-->
+    <dimen name="top_layout_height_doubt">184dp</dimen>
+    <dimen name="image_button_height_doubt">24dp</dimen>
+    <dimen name="image_button_width_doubt">24dp</dimen>
+    <dimen name="etxt_height_doubt">120dp</dimen>
+
+    <!--Analytic screen sizes-->
+    <dimen name="image_button_height_analytic">64dp</dimen>
+    <dimen name="image_button_width_analytic">64dp</dimen>
+
+    <!--Exam detail screen sizes-->
+    <dimen name="tab_height_exam_details">48dp</dimen>
+    <dimen name="tab_border_width">1dp</dimen>
+    <dimen name="tab_border_radius">28dp</dimen>
+</resources>

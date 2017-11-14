@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/intro_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_xxxl"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_xxxl">
+
+            <android.support.v7.widget.AppCompatTextView
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_s"
+                android:gravity="center"
+                android:text="@string/text_email"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_subheading"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edittext_big"
+                android:layout_marginBottom="@dimen/margin_xxl"
+                android:background="@color/colorWhiteTrans"
+                android:drawableLeft="@drawable/ic_message"
+                android:gravity="center"
+                android:hint="@string/text_email_desc"
+                android:paddingLeft="@dimen/padding_m"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="@dimen/text_subheading"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_s"
+                android:gravity="center"
+                android:text="@string/text_password"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/text_subheading"/>
+
+            <android.support.v7.widget.AppCompatEditText
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edittext_big"
+                android:background="@color/colorWhiteTrans"
+                android:drawableLeft="@drawable/ic_password"
+                android:gravity="center"
+                android:hint="@string/text_password_desc"
+                android:paddingLeft="@dimen/padding_m"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="@dimen/text_subheading"/>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/ll_buttons_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="@dimen/margin_xl"
+                android:layout_marginTop="@dimen/margin_xxxl"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/btn_signin"
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/button_big"
+                    android:layout_marginBottom="@dimen/margin_xl"
+                    android:background="@drawable/selector_btn_yellow_rounded"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/padding_s"
+                    android:paddingLeft="@dimen/button_side_padding"
+                    android:paddingRight="@dimen/button_side_padding"
+                    android:paddingTop="@dimen/padding_s"
+                    android:text="@string/text_btn_signin"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/text_button"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/tv_or"
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="@dimen/margin_xl"
+                    android:gravity="center"
+                    android:text="@string/text_login_with"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_subheading"/>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:id="@+id/ibtn_facebook"
+                        android:layout_width="@dimen/social_button_width"
+                        android:layout_height="@dimen/social_button_height"
+                        android:layout_marginRight="@dimen/margin_xl"
+                        android:background="@drawable/ic_fb"/>
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:id="@+id/ibtn_twitter"
+                        android:layout_width="@dimen/social_button_width"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@drawable/ic_tw"/>
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:id="@+id/ibtn_google"
+                        android:layout_width="@dimen/social_button_width"
+                        android:layout_height="@dimen/social_button_height"
+                        android:layout_marginLeft="@dimen/margin_xl"
+                        android:background="@drawable/ic_gg"/>
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:clickable="true"
+        android:minHeight="@dimen/button_big"
+        android:paddingBottom="@dimen/padding_s"
+        android:paddingLeft="@dimen/padding_xl"
+        android:paddingRight="@dimen/padding_xl"
+        android:paddingTop="@dimen/padding_xl">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_title_home_list_header_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/text_upcomingexams_title"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_subheading"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

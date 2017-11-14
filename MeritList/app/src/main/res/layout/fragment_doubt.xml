@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/str_doubt_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="androidclient.meritlist.in.meritlist.fragments.DoubtFragment">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Layout input field-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/top_layout_height_doubt"
+            android:background="@color/colorWhite"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_xl">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/etxt_input_doubt_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/etxt_height_doubt"
+                android:layout_alignParentTop="true"
+                android:background="@color/colorWhite"
+                android:gravity="top"
+                android:hint="@string/text_touch_to_type_doubt"
+                android:textColor="@color/colorBlackText"
+                android:textSize="@dimen/text_body" />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_button_height_doubt"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/etxt_input_doubt_fragment"
+                android:layout_marginTop="@dimen/margin_m"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <!--Button 1-->
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:layout_width="@dimen/image_button_width_doubt"
+                        android:layout_height="@dimen/image_button_height_doubt"
+                        android:background="@drawable/ic_doubt_text" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <!--Button 2-->
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:layout_width="@dimen/image_button_width_doubt"
+                        android:layout_height="@dimen/image_button_height_doubt"
+                        android:background="@drawable/ic_doubt_camera" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <!--Button 3-->
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageButton
+                        android:layout_width="@dimen/image_button_width_doubt"
+                        android:layout_height="@dimen/image_button_height_doubt"
+                        android:background="@drawable/ic_doubt_enter" />
+
+                </android.support.v7.widget.LinearLayoutCompat>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+        </RelativeLayout>
+
+        <!--Layout recycle view field-->
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackground"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_xxxxl"
+            android:paddingTop="@dimen/padding_xl">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_s"
+                android:layout_marginLeft="@dimen/margin_xl"
+                android:layout_marginRight="@dimen/margin_xl"
+                android:text="@string/text_previous_doubts_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_subheading" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_doubt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:scrollbars="vertical" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.SwipeRefreshLayout>

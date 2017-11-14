@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlycoPageIndicaor"><attr format="dimension" name="fpi_width"/><attr format="dimension" name="fpi_height"/><attr format="dimension" name="fpi_gap"/><attr format="dimension" name="fpi_strokeWidth"/><attr format="color" name="fpi_strokeColor"/><attr format="boolean" name="fpi_isSnap"/><attr format="color" name="fpi_selectColor"/><attr format="color" name="fpi_unselectColor"/><attr format="dimension" name="fpi_cornerRadius"/><attr format="reference" name="fpi_selectRes"/><attr format="reference" name="fpi_unselectRes"/></declare-styleable>
+    <declare-styleable name="RoundCornerIndicaor"><attr format="dimension" name="rci_width"/><attr format="dimension" name="rci_height"/><attr format="dimension" name="rci_gap"/><attr format="dimension" name="rci_cornerRadius"/><attr format="dimension" name="rci_strokeWidth"/><attr format="color" name="rci_selectColor"/><attr format="color" name="rci_unselectColor"/><attr format="color" name="rci_strokeColor"/><attr format="boolean" name="rci_isSnap"/></declare-styleable>
+</resources>

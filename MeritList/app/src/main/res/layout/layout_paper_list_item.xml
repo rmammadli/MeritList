@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:background="?attr/selectableItemBackground"
+        android:paddingLeft="@dimen/padding_xl"
+        android:paddingRight="@dimen/padding_xl">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_paper_name_paper_list_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/text_practice_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_body" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_paper_status_done_paper_list_item"
+            android:layout_width="@dimen/progress_status_indicator_width"
+            android:layout_height="@dimen/progress_status_indicator_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_solved"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_paper_status_not_done_paper_list_item"
+            android:layout_width="@dimen/help_list_icon_width"
+            android:layout_height="@dimen/help_list_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_list_arrow" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

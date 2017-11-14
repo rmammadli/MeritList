@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_ndv_profile"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_ndv_profile"
+            android:title="PROFILE" />
+        <item
+            android:id="@+id/nav_progress"
+            android:icon="@drawable/ic_ndv_progress"
+            android:title="PROGRESS" />
+        <item
+            android:id="@+id/nav_leaderboard"
+            android:icon="@drawable/ic_ndv_leaderboard"
+            android:title="LEADERBOARD" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_ndv_history"
+            android:title="HISTORY" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_ndv_help"
+            android:title="HELP" />
+    </group>
+</menu>

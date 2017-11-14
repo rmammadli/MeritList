@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_s"
+    android:paddingTop="@dimen/margin_s">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_tab_yellow_bordered"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_question_option_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="A"
+            android:textColor="@drawable/selector_tab_rounded_border_yellow_text"
+            android:textSize="@dimen/text_subheading"/>
+
+        <ImageView
+            android:id="@+id/iv_line_question_option_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/margin_xl"
+            android:layout_marginRight="@dimen/margin_xl"
+            android:background="@color/colorWhite"
+            android:visibility="gone"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_question_option_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="p,q"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_caption"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</android.support.v7.widget.LinearLayoutCompat>

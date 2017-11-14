@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_xl">
+
+        <com.flyco.pageindicator.indicator.FlycoPageIndicaor xmlns:fpi="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/indicator_circle_snap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_xl"
+            android:paddingTop="@dimen/indicatior_dot_padding_top"
+            fpi:fpi_cornerRadius="@dimen/indicatior_dot_corner_radius"
+            fpi:fpi_gap="@dimen/indicatior_dot_gap"
+            fpi:fpi_height="@dimen/indicatior_dot_height"
+            fpi:fpi_isSnap="true"
+            fpi:fpi_selectColor="@color/colorWhite"
+            fpi:fpi_unselectColor="@color/colorGrey"
+            fpi:fpi_width="@dimen/indicatior_dot_width" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_get_started"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_big"
+            android:background="@drawable/selector_btn_yellow_rounded"
+            fontPath="fonts/Montserrat-Regular.ttf"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding_s"
+            android:paddingLeft="@dimen/button_side_padding"
+            android:paddingRight="@dimen/button_side_padding"
+            android:paddingTop="@dimen/padding_s"
+            android:text="@string/btn_getstarted"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_button" />
+    </LinearLayout>
+
+</LinearLayout>

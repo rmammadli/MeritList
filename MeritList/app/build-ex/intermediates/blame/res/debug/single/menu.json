@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/rmammadov/Desktop/MeritList/app/build/intermediates/res/merged/debug/menu/activity_home_drawer.xml",
+        "source": "/Users/rmammadov/Desktop/MeritList/app/src/main/res/menu/activity_home_drawer.xml"
+    },
+    {
+        "merged": "/Users/rmammadov/Desktop/MeritList/app/build/intermediates/res/merged/debug/menu/home.xml",
+        "source": "/Users/rmammadov/Desktop/MeritList/app/src/main/res/menu/home.xml"
+    },
+    {
+        "merged": "/Users/rmammadov/Desktop/MeritList/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/rmammadov/Desktop/MeritList/app/src/main/res/menu/menu_main.xml"
+    }
+]

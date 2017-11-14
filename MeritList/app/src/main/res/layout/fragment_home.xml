@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/str_home_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_home_fragment_bottom"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/ll_mydetails_home_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_big"
+                android:layout_margin="@dimen/margin_xl"
+                android:background="@drawable/shape_background_primary_rounded"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_xl"
+                android:paddingRight="@dimen/padding_xl">
+
+                <android.support.v7.widget.AppCompatTextView
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/text_name"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_subheading"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    fontPath="fonts/Montserrat-Regular.ttf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="@string/text_xp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_subheading"/>
+            </RelativeLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                fontPath="fonts/Montserrat-Regular.ttf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_s"
+                android:layout_marginLeft="@dimen/margin_xl"
+                android:layout_marginRight="@dimen/margin_xl"
+                android:text="@string/text_recommendedpractice_title"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_subheading"/>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_xl"
+                android:background="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/padding_xl"
+                android:paddingLeft="@dimen/padding_xl"
+                android:paddingTop="@dimen/padding_xl">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rv_recommendedpractice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:scrollbars="vertical"/>
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</android.support.v4.widget.SwipeRefreshLayout>
